@@ -2,6 +2,10 @@
 background-color: rgb(230, 173, 173);
 padding: 40px;
 display: flex;
+font-size: 20px;
+font-family: "aptly-college", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 .title{
       background-color:  rgb(174, 25, 25);;
@@ -17,7 +21,7 @@ font-style: normal;
 font-size: 50px;
 }
 html{
-    background-color: hsl(53, 100%, 83%);
+    background-color: hsl(0, 83%, 19%);
     padding-bottom: 200px;
 }
 .tab-nav{
@@ -54,7 +58,7 @@ padding:30px;
 .footer-link{ color: white;
 }
 .right-column{
-    flex: 70%;
+    flex: 30%;
     padding: 20px;
 }
 .image{height: auto;
