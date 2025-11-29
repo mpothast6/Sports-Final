@@ -41,12 +41,13 @@ font-size: 20px;
 font-family: "aptly", sans-serif;
 font-weight: 400;
 font-style: normal;
+padding-bottom: 100px
 }
-.left-column{
+.big-column{
     flex: 70%;
     padding: 20px;
 }
-.right-column{
+.small-column{
     flex: 30%;
     padding: 20px;
 }
@@ -68,3 +69,16 @@ padding:30px;
 }
 .image{height: auto;
 width: 600px;}
+
+.gallery-image{
+    height: auto;
+    width: 94%;
+   
+}
+.image-gallery{ list-style-type: none;
+padding: 0;
+display: flex;
+ }
+
+.img-size{
+    flex:1 0 33.333%;}
